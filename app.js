@@ -1,5 +1,4 @@
-import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js";
-import { OrbitControls } from "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/controls/OrbitControls.js";
+import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js";import { OrbitControls } from "https://esm.sh/three@0.160.0/examples/jsm/controls/OrbitControls.js?bundle";
 const q = (s) => document.querySelector(s);
 const mount = q("#sceneMount"), loader = q("#sceneLoader"), mode = q("#sceneMode"), hud = q("#gameHud"), reticle = q("#gameReticle"), toast = q("#gameToast");
 const scoreEl = q("#scoreValue"), timeEl = q("#timeValue"), comboEl = q("#comboValue"), how = q("#howModal"), result = q("#resultModal"), siteToast = q("#siteToast");
